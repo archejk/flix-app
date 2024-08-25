@@ -1,7 +1,8 @@
 require 'test_helper'
 
 class CharacterizationTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  context"#association" do
+    should belong_to(:movie)
+    should belong_to(:genre)
+  end
 end
