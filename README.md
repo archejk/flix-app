@@ -87,7 +87,7 @@ rails s
 
 ## Course Information
 
-This project is part of a course from The Pragmatic Studio, aimed at enhancing Ruby on Rails development skills through practical, hands-on projects.
+This project is part of a course from [The Pragmatic Studio](https://pragmaticstudio.com/), aimed at enhancing Ruby on Rails development skills through practical, hands-on projects.
 
 ## Contributing
 
