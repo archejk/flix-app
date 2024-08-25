@@ -25,7 +25,18 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# Front-end Libraries
 gem 'bootstrap', '~> 4.3.1'
+gem 'momentjs-rails', '~> 2.29.1.1'
+gem 'bootstrap-daterangepicker-rails', '~> 3.0.4'
+gem 'font_awesome5_rails', '~> 1.1.1'
+gem 'font-awesome-rails'
+gem 'bootstrap-datepicker-rails', '~> 1.8.0.1'
+
+# Howtwire
+gem "importmap-rails"
+gem "stimulus-rails"
+gem "turbo-rails"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
@@ -33,6 +44,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'guard-minitest'
 end
 
 group :development do
@@ -52,7 +64,22 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+  gem 'shoulda-matchers', '~> 4.0'
+  gem 'simplecov', '~> 0.16.1', require: false
+  gem 'webmock', '~> 3.14.0'
+  gem 'vcr', '~> 6.0.0'
+  gem 'mocha', '~> 1.14.0'
+  gem 'shoulda', '~> 4.0.0'
+  gem 'timecop'
 end
+
+# Image Attachments
+gem 'cloudinary', '~> 1.23.0'
+gem 'activestorage-cloudinary-service'
+
+# Feature Switch
+# gem "flipper-cloud"
+# gem "flipper-active_record"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data'
