@@ -99,4 +99,11 @@ Contributions are welcome! Please follow these steps:
 - Push your branch to your fork.
 - Create a pull request to the main branch of this repository.
 
+### For Fixing issues/future enhancements to do:
+- https://github.com/archejk/flix-app/issues/2
+- https://github.com/archejk/flix-app/issues/3
+- https://github.com/archejk/flix-app/issues/4
+- https://github.com/archejk/flix-app/issues/5
+- https://github.com/archejk/flix-app/issues/6
+
 Happy Coding! :)
